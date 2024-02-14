@@ -95,6 +95,7 @@ syscall
 
 #Imprimir número
 mul $s4, $s4, 10
+sub $s4, $s4, 10
 li $v0, 1
 move $a0, $s4
 syscall
